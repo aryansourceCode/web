@@ -1,91 +1,28 @@
-body{
-    background-color: rgb(250, 250, 250);
-    background-image: url(/signup.avif);
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-.img{
-    height:100vh;
-}
 #login{
-    width:500px;
-    height: 350px;
-    line-height: 50px;
-    padding:10px;
-    margin:10px;
-    background-color: rgb(7, 76, 76);
-    border-radius: 10px;
-    align-content: center;
-    margin:200px;
-    position:fixed;
-    top:-2%;
-    height:400px;
-    width:500px;
-    left:20%;
+    position: fixed;
+    top:25%;
+    left:38%;
+    background-color: rgb(255, 221, 194);  
+    height:350px;
+    width:390px;
+    border-radius:20px;
+    border:2px solid black;
 }
-#name{
-    height:35px;
+h1{
+    font-size: 30px;
+    
 }
-#age{
-    height:35px;
+table{
+    height:200px;
+    width:330px;
+    color: rgb(0, 0, 0);
 }
-#phn{
-    height:35px;
-}
-#email{
-    width:200px;
-    height:35px
-}
-#pass{
-    width:200px;
-    height:35px
-}
-#tab{
-    height: 250px;
-    width:400px;
-    color:white;
-}
-input{
-    width:400px;
-    height:30px;
-    border-radius:25px;
-    background-color: #E5F4E3;
-}
-#pass{
-    width:400px;
-}
-#email{
-    width:400px;
-}
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  .b1{
-    margin-left: 10px;
-
-  }
-  .b2{
-    margin-right: 20px;
-    margin-left: 10px;
-  }
-  .b3{
-    margin-right: 30px;
-  }
-  .sub{
-    border-radius: 15px;
+button{
+    margin:20px;
     padding:5px;
-    margin:5px;
     height:30px;
-    width:100px;
-  }
-  .sub:hover{
-    cursor: pointer;
-    background-color:lightgreen;
-  }
+    width:90px;
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: lightgreen;
+}
